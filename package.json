@@ -1,31 +1,36 @@
 {
-  "name": "sample-node-express",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mohitsehgal/sample-node-express.git"
-  },
-  "keywords": [
-    "Node.js",
-    "Starter"
-  ],
-  "author": "Mohit Sehgal",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mohitsehgal/sample-node-express/issues"
-  },
-  "homepage": "https://github.com/mohitsehgal/sample-node-express#readme",
-  "dependencies": {
-    "express": "^4.18.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.20.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
-  }
+    "name": "sample-node-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mohitsehgal/sample-node-express.git"
+    },
+    "keywords": [
+        "Node.js",
+        "Starter"
+    ],
+    "author": "Mohit Sehgal",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mohitsehgal/sample-node-express/issues"
+    },
+    "homepage": "https://github.com/mohitsehgal/sample-node-express#readme",
+    "dependencies": {
+        "eslint-config-prettier": "^8.5.0",
+        "express": "^4.18.1",
+        "prettier": "^2.7.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.20.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0"
+    }
 }
